@@ -1,11 +1,11 @@
-About intel-gmmlib
-==================
+About intel-gmmlib-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/intel-gmmlib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/intel/gmmlib
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/intel-gmmlib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Intel(R) Graphics Memory Management Library
 
