@@ -10,8 +10,10 @@ source:
   sha256: dbf7cc401de7ff386306a23c1c61b3cf7bd86a4d9001b3a1d16a81e6b0e3ab2b
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
+  run_exports:
+    - {{ pin_subpackage("intel-gmmlib", max_pin="x") }}
 
 requirements:
   build:
