@@ -1,5 +1,5 @@
 {% set name = "gmmlib" %}
-{% set version = "22.7.1" %}
+{% set version = "22.7.2" %}
 
 package:
   name: intel-gmmlib
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/intel/gmmlib/archive/refs/tags/intel-gmmlib-{{ version }}.tar.gz
-  sha256: 3b84d993950069f0a9b0cc373e2f4b026b194d8fdfb2a8856490d17dadd1b5a5
+  sha256: 36f2ff2b59158d1253a33d735f4e35a1b5740c4751818bdaa222b8ddf96ee881
 
 build:
   number: 0
